@@ -1,0 +1,85 @@
+@font-face{
+    src: url(fonts/IBMPlexSerif-Regular.ttf);
+    font-family: Plex-Serif;
+    font-weight: 300;
+}
+
+@font-face{
+    src: url(fonts/IBMPlexSerif-Medium.ttf);
+    font-family: Plex-Serif;
+    font-weight: 400;
+}
+
+@font-face{
+    src: url(fonts/IBMPlexSerif-SemiBold.ttf);
+    font-family: Plex-Serif;
+    font-weight: 500;
+}
+
+@font-face{
+    src: url(fonts/IBMPlexSerif-Bold.ttf);
+    font-family: Plex-Serif;
+    font-weight: 600;
+}
+
+body{
+    margin:0px;
+    background-color: #c6d3a4;
+}
+
+header{
+    background-color: #c6d3a4;
+    border-bottom: 3px solid #5b7907;
+}
+
+
+img{
+    width: 35vw;
+    border-radius: 3%;
+
+    display: block;
+    margin: auto;
+}
+
+.title{
+    color:rgb(82, 82, 82);
+    font-family: Plex-Serif, helvetica;
+    font-weight: 500;
+}
+
+.subtitle{
+    color:rgb(82, 82, 82);
+    font-family: Plex-Serif, helvetica;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.subheader{
+    text-align: center;
+    font-family: Plex-Serif, helvetica;
+    color: #695f50;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.article{
+    
+    background-color: #d6e0ca;
+
+    padding: 16vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#TitleSection1{
+    color:#5b7907;
+}
+
+#TitleSection2{
+    color:#516126;
+    font-size: 1.15em;
+}
+
+#TitleSection3{
+    color:#ce775e;
+}
