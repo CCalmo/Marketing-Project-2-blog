@@ -101,6 +101,11 @@ p{
     margin-right: 5%;
 }
 
+.highlight{
+    font-weight: bold;
+    color:#d1674a
+}
+
 .hyperlink{
     color:#4d6803;
 }
