@@ -32,8 +32,40 @@ header{
     border-bottom: 3px solid #5b7907;
 }
 
+footer{
+     border-top: 3px solid #5b7907;
+}
 
-img{
+p{
+    color:#404040;
+
+    font-family: Plex-Serif, helvetica;
+    font-weight: 300;
+    font-size: 18px;
+
+    line-height: 1.6em;
+}
+
+.title{
+    color:#525252;
+
+    font-family: Plex-Serif, helvetica;
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+
+.subtitle{
+    color:#525252;
+
+    font-family: Plex-Serif, helvetica;
+    font-weight: 300;
+    font-size: 1.5em;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image{
     width: 35vw;
     border-radius: 3%;
 
@@ -42,33 +74,11 @@ img{
     margin-bottom: 45px;
 }
 
-p{
-    color:#404040;
-    font-family: Plex-Serif, helvetica;
-    font-weight: 300;
-    font-size: 18px;
-}
-
-.title{
-    color:#525252;
-    font-family: Plex-Serif, helvetica;
-    font-weight: 500;
-    margin-bottom: 0%;
-}
-
-.subtitle{
-    color:rgb(82, 82, 82);
-    font-family: Plex-Serif, helvetica;
-    font-weight: 300;
-    font-size: 1.5em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .subheader{
-    font-family: Plex-Serif, helvetica;
     color: #695f50;
-    font-weight: 500;
+
+    font-family: Plex-Serif, helvetica;
+    font-weight: 400;
     font-size: 1.3em;
 }
 
@@ -82,7 +92,6 @@ p{
 }
 
 .articlesection{
-    border-color: #d6e0ca;
     border: #c2cab7 solid 1px;
     border-radius: 3%;
 }
@@ -92,15 +101,59 @@ p{
     margin-right: 5%;
 }
 
-#TitleSection1{
+.hyperlink{
+    color:#4d6803;
+}
+
+.titleSection1{
     color:#5b7907;
 }
 
-#TitleSection2{
+.titleSection2{
     color:#516126;
     font-size: 1.15em;
 }
 
-#TitleSection3{
+.titleSection3{
     color:#ce775e;
+}
+
+.assignmentInfo{
+    color: #695f50;
+
+    font-family: Plex-Serif, helvetica;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.keywordList{
+    color: #695f50;
+
+    font-family: Plex-Serif, helvetica;
+    font-weight: 300;
+
+    margin-left: 38%;
+}
+
+.githubFooter{
+    color:#a901f1;
+    display: flex;
+    align-items: center;
+
+    margin-left: 80%;
+    margin-bottom: 25px;
+
+    gap: 5px;
+}
+
+.githubLink{
+    font-family: Plex-Serif, Helvetica;
+    font-weight: 600;
+    text-align: right;
+}
+
+.githubIcon{
+    width: 50px;
+    border-radius: 15%;
 }
