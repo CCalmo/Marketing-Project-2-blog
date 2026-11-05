@@ -39,12 +39,21 @@ img{
 
     display: block;
     margin: auto;
+    margin-bottom: 45px;
+}
+
+p{
+    color:#404040;
+    font-family: Plex-Serif, helvetica;
+    font-weight: 300;
+    font-size: 18px;
 }
 
 .title{
-    color:rgb(82, 82, 82);
+    color:#525252;
     font-family: Plex-Serif, helvetica;
     font-weight: 500;
+    margin-bottom: 0%;
 }
 
 .subtitle{
@@ -52,10 +61,11 @@ img{
     font-family: Plex-Serif, helvetica;
     font-weight: 300;
     font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .subheader{
-    text-align: center;
     font-family: Plex-Serif, helvetica;
     color: #695f50;
     font-weight: 500;
@@ -66,9 +76,20 @@ img{
     
     background-color: #d6e0ca;
 
-    padding: 16vw;
+    padding: 20vw;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
+}
+
+.articlesection{
+    border-color: #d6e0ca;
+    border: #c2cab7 solid 1px;
+    border-radius: 3%;
+}
+
+.body{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #TitleSection1{
